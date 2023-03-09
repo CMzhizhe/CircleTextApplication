@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.gxx.circletextviewlibrary.CircleTextView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        app:circle_stroke_color="@color/zi_BC5AD3"
+        app:circle_stroke_width="1dp"
+        app:circle_text="1h"
+        app:circle_text_color="@color/zi_BC5AD3"
+        app:circle_text_size="12sp" />
+
+    <com.gxx.circletextviewlibrary.CircleTextView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        app:circle_stroke_color="@color/zi_BC5AD3"
+        app:circle_stroke_width="1dp"
+        app:circle_text="30m"
+        app:circle_text_color="@color/zi_BC5AD3"
+        app:circle_text_size="11sp" />
+
+
+    <com.gxx.circletextviewlibrary.CircleTextView
+        android:id="@+id/auto_circle_text_view"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        app:circle_stroke_color="@color/zi_BC5AD3"
+        app:circle_stroke_width="1dp"
+        app:circle_text="30m"
+        app:circle_text_color="@color/zi_BC5AD3"
+        app:circle_text_size="11sp" />
+
+</LinearLayout>
